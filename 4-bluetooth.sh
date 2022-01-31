@@ -17,11 +17,6 @@ PKGS=(
         'bluez-firmware'        # Firmwares for Broadcom BCM203x and STLC2300 Bluetooth chips
         'blueberry'             # Bluetooth configuration tool
         'pulseaudio-bluetooth'  # Bluetooth support for PulseAudio
-
-        # Deprecated ibraries for the bluetooth protocol stack.
-        # I believe the blues package above is all that is necessary now,
-        # but I havn't tested this out, so for now I install this too.
-        'bluez-libs' 
 )
 
 for PKG in "${PKGS[@]}"; do
